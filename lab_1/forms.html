@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Регистрация</h1>
+    <form>
+        <fieldset>
+            <label for="login">Логин:</label><br>
+            <input type="text" autofocus required name="login" id="login" /><br>
+            <label for="pass">Пароль:</label><br>
+            <input type="password" required id="pass" name="password"/><br>
+            <label for="radio">Согласие на использование персональных данных</label><br>
+            <input type="radio" id="radio" /><br>
+            <label for="checkbox">Согласие на получение рассылки</label><br>
+            <input type="checkbox" id="checkbox" /><br>
+            <button type="submit">Регистрация</button><br>
+        </fieldset>
+        <fieldset>
+            <label for="hidden">Скрыто</label><br>
+            <input type="hidden" id="hidden" /><br>
+        </fieldset>
+        <fieldset>
+            <label for="color">Выберите цвет вашей кожи</label><br>
+            <input type="color" required id="color" /><br>
+            <label for="date">Дата вашего рождения</label><br>
+            <input type="date" id="date" /><br>
+            <label for="email">Введите адрес электронной почты</label><br>
+            <input type="email" id="email" value="example@example.com" readonly /><br>
+            <label for="tel">Введите номер вашего телефона</label><br>
+            <input type="tel" id="tel" value="+79996965555" disabled /><br>
+        </fieldset>
+        <fieldset>
+            <label for="datetime">Ваше любимое время</label><br>
+            <input type="datetime" id="datetime" /><br>
+            <label for="datetime-local">Хрен знает</label><br>
+            <input type="datetime-local" id="datetime-local" /><br>
+            <label for="month">Введите текущий месяц</label><br>
+            <input type="month" id="month" /><br>
+            <label for="number">Введите ваше любимое число</label><br>
+            <input type="number" min="14" max="144" list="numbers" id="number" placeholder="15" /><br>
+            <datalist id="numbers">
+                <option value="77"></option>
+                <option value="66"></option>
+                <option value="55"></option>
+                <option value="44"></option>
+                <option value="33"></option>
+              </datalist>
+            <label for="range">Диапазон цены</label><br>
+            <input type="range" id="range" /><br>
+        </fieldset>
+        <fieldset>
+            <label for="time">Укажите время</label><br>
+            <input type="time" id="time" /><br>
+            <label for="week">Любимая неделя</label><br>
+            <input type="week" id="week" /><br>
+        </fieldset>
+        <fieldset>
+            <label for="choose">Выберите тип файла</label><br>
+            <input type="text" list="types" /><br>
+            <datalist id="types">
+                <option value="Text"></option>
+                <option value="Image"></option>
+                <option value="File"></option>
+                <option value="Audio"></option>
+                <option value="Another"></option>
+              </datalist>
+            <label for="url">Оставьте ссылку на ресурс</label><br>
+            <input type="url" id="url" /><br>
+            <label for="file">Прикрепите файл</label><br>
+            <input type="file" id="file" /><br>
+            <label for="img">Прикрепите изображение</label><br>
+            <input type="image" id="img" /><br>
+        </fieldset>
+    </form>
+</body>
+</html>
