@@ -1,0 +1,56 @@
+#app {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
+#search {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#search-results {
+    margin-bottom: 20px;
+}
+#search-results div {
+    padding: 5px;
+    cursor: pointer;
+}
+#search-results div:hover {
+    background-color: #f0f0f0;
+}
+.tree-node {
+    margin-left: 20px;
+}
+.tree-node span {
+    cursor: pointer;
+}
+.tree-node span:hover {
+    text-decoration: underline;
+}
+.selected {
+    background-color: rgb(208, 170, 219);
+}
+.menu-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: #cab5d6;
+    padding: 10px 50px;
+}
+.button {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.button:hover {
+    background-color: #b975ca;
+}
+.button:active {
+    background-color: #5c146e;
+}

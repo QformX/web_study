@@ -1,0 +1,41 @@
+.stack {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 600px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.box {
+    width: 100px;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.menu-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: #cab5d6;
+    padding: 10px 50px;
+}
+.button {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.button:hover {
+    background-color: #b975ca;
+}
+.button:active {
+    background-color: #5c146e;
+}
